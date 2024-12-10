@@ -1,0 +1,11 @@
+import mongoose from "mongoose";
+
+export async function connect(){
+	try {
+		if ()
+		mongoose.connect(process.env.MONGO_URL!)
+	}catch (error) {
+		console.log("Something went wrong in connecting to DB");
+		console.log(error);
+	}
+}

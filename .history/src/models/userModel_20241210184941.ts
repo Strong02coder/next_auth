@@ -1,0 +1,26 @@
+import mongoose from "mongoose";
+import { unique } from "next/dist/build/utils";
+
+const userSchema = new mongoose.Schema({
+	username: {
+		type: String,
+		required: [
+			true, "Please provide a username"
+		],
+		unique: true
+	},
+	email: {
+		type: String,
+		required: [
+			true, "Please provide a email"
+		],
+		unique: true
+	},
+	Future result = account.createRecovery(email: ' USER_EMAIL', url:' PASSWORD_RESET_URL');: {
+		type: String,
+		required: [
+			true, "Please provide a username"
+		],
+		unique: true
+	}
+})
